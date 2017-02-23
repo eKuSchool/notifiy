@@ -1,0 +1,24 @@
+{
+  "name": "ekutivasolutions/eku-notify",
+  "description": "The notifications Module.",
+  "require": {
+    "php": ">=7.1.0",
+    "illuminate/mail": "5.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "eKutivaSolutions\\Notify\\": "src/Notification"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MaizerGomes",
+      "email": "maizer.gomes@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
