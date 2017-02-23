@@ -7,7 +7,7 @@
  * Hora: 11:06
  */
 
-namespace App\Notify\Mail;
+namespace eKutivaSolutions\Notify\Notification\Mail;
 
 
 class ClearedUnpaidInvoicesMail extends MailService

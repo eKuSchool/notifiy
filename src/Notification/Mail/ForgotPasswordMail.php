@@ -7,7 +7,7 @@
  * Hora: 21:33
  */
 
-namespace App\Notify\Mail;
+namespace eKutivaSolutions\Notify\Notification\Mail;
 
 
 use Mail;

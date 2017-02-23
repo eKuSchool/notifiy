@@ -7,7 +7,7 @@
  * Hora: 12:38
  */
 
-namespace App\Notify\Mail;
+namespace eKutivaSolutions\Notify\Notification\Mail;
 
 
 abstract class MailService
