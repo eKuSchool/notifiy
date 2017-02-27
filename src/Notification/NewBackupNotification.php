@@ -7,10 +7,10 @@
  * Hora: 23:38
  */
 
-namespace eKutivaSolutions\Notify\Notification;
+namespace eKuSchool\Notify\Notification;
 
 
-use eKutivaSolutions\Notify\Notification\Mail\NewBackupMail;
+use eKuSchool\Notify\Notification\Mail\NewBackupMail;
 
 class NewBackupNotification extends NotifyService
 {

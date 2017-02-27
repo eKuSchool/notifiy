@@ -7,7 +7,7 @@
  * Hora: 11:08
  */
 
-namespace eKutivaSolutions\Notify\Notification\Mail;
+namespace eKuSchool\Notify\Notification\Mail;
 
 
 class NewEnrollmentMail extends MailService

@@ -7,10 +7,10 @@
  * Hora: 23:38
  */
 
-namespace eKutivaSolutions\Notify\Notification;
+namespace eKuSchool\Notify\Notification;
 
 
-use eKutivaSolutions\Notify\Notification\Mail\NewPaymentMail;
+use eKuSchool\Notify\Notification\Mail\NewPaymentMail;
 
 class NewPaymentNotification extends NotifyService
 {

@@ -7,7 +7,7 @@
  * Hora: 11:08
  */
 
-namespace eKutivaSolutions\Notify\Notification\Mail;
+namespace eKuSchool\Notify\Notification\Mail;
 
 
 use Mail;
@@ -45,7 +45,7 @@ class NewPaymentMail extends MailService
 
             if (!$user || !$user->email) return;
 
-            return Mail::queue('emails.new_payment', ['user' => $user, 'receipt' => $receipt], function ($message) use ($user) {
+            return Mail::queue('eku_emails::new_payment', ['user' => $user, 'receipt' => $receipt], function ($message) use ($user) {
                 $message->to($user->email, $user->short_name);
                 $message->subject($this->subject);
             });

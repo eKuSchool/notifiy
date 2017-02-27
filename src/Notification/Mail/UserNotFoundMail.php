@@ -7,7 +7,7 @@
  * Hora: 23:02
  */
 
-namespace eKutivaSolutions\Notify\Notification\Mail;
+namespace eKuSchool\Notify\Notification\Mail;
 
 
 class UserNotFoundMail extends MailService

@@ -7,9 +7,9 @@
  * Hora: 23:35
  */
 
-namespace eKutivaSolutions\Notify\Notification;
+namespace eKuSchool\Notify\Notification;
 
-use eKutivaSolutions\Notify\Notification\Mail\MailService;
+use eKuSchool\Notify\Notification\Mail\MailService;
 
 abstract class NotifyService
 {

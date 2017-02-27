@@ -7,7 +7,7 @@
  * Hora: 21:33
  */
 
-namespace eKutivaSolutions\Notify\Notification\Mail;
+namespace eKuSchool\Notify\Notification\Mail;
 
 
 use Mail;
